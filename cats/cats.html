@@ -2,16 +2,49 @@
 <html>
 <head>
   <title>Cat GIF Gallery</title>
+  <style>
+    body {
+      background-color: #2C2F33;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      margin: 10px;
+      max-width: 300px;
+      height: auto;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .header-text {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div style="background-color: #2C2F33; max-width: 400px; margin: 0 auto; border-radius: 4px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); overflow: hidden;">
-    <div style="background-color: #36393F; height: 20px;"></div>
-    <div style="padding: 10px; color: #FFFFFF;">
-      <h1 style="text-align: center; margin-top: 20px;">Cat GIF Gallery</h1>
-      <p style="text-align: center;">😺CATS😺</p>
-    </div>
-  </div>
-
+  <h1>Cat GIF Gallery</h1>
+  <div class="header-text">😺Funny Cat Gifs😺</div>
+  
   <div class="gallery">
     <img src="https://media.tenor.com/fTTVgygGDh8AAAAC/kitty-cat-sandwich.gif" alt="Cat GIF">
     <img src="https://media.tenor.com/OeswMjtpFdQAAAAd/cat.gif" alt="Cat GIF">
@@ -28,7 +61,7 @@
     <img src="https://media.tenor.com/dy34QJNLOGgAAAAC/meevin-meev.gif" alt="Cat GIF">
     <img src="https://media.tenor.com/wtODXBplQHQAAAAd/cat-cry-gif-crying-cat-gif.gif" alt="Cat GIF">
   </div>
-
-  <p style="text-align: center; margin-top: 20px;">All GIFs sourced from Tenor.</p>
+  
+  <p>All GIFs sourced from Tenor.</p>
 </body>
 </html>
